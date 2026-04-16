@@ -1,13 +1,52 @@
 /* assets/style.css */
 
+/* Target the entire page background */
+body {
+    margin: 0;
+    background-color: #eef2f5;
+}
+
+/* Create a central "card" for the dashboard */
 .app-container {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 20px;
-    background-color: #f9f9f9;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
 .header-title {
     text-align: center;
     color: #2c3e50;
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+/* Center and space out the radio buttons */
+.region-selector {
+    text-align: center;
     margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.radio-group label {
+    margin: 0 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #475569;
+    cursor: pointer;
+}
+
+/* Adjust the actual radio circle spacing */
+.radio-group input {
+    margin-right: 8px;
+    cursor: pointer;
+    transform: scale(1.2);
 }
