@@ -1,0 +1,13 @@
+/* assets/style.css */
+
+.app-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.header-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
